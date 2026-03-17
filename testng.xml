@@ -8,7 +8,7 @@
             <class name="api.tests.UserTests"/>
             <class name="api.tests.User2Test"/>
         </classes>
-
+<!--        JUST ADDING THESE LINE TO PUSH TO GIT SAMPLE-->
     </test>
 
 </suite>

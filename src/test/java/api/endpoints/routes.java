@@ -7,6 +7,7 @@ package api.endpoints;
 //put - "https://petstore.swagger.io/v2/user/{username}"
 //delete - "https://petstore.swagger.io/v2/user/{username}"
 
+
 public class routes {
 
     //common for all in that overall docmentation
