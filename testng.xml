@@ -2,8 +2,8 @@
 
 <suite name="API Automation Suite">
     <listeners>
-        <listener class-name="api.tests.User2Test"></listener>
-        <listener class-name="api.tests.UserTests"></listener>
+<!--        <listener class-name="api.tests.User2Test"></listener>-->
+<!--        <listener class-name="api.tests.UserTests"></listener>-->
     </listeners>
     <test name="User Tests">
 
