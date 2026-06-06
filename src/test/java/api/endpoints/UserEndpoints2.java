@@ -18,6 +18,7 @@ public class UserEndpoints2 {
     public static Response createUser(User payload){
         String postlink=getAll().getString("POST");
         Response response=given().contentType("application/json")
+
                 .body(payload).when().post(postlink);
         return response;
     }

@@ -4,6 +4,7 @@ import api.endpoints.UserEndpoints2;
 import api.payloads.User;
 import com.github.javafaker.Faker;
 import io.restassured.response.Response;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -36,6 +37,7 @@ public class User2Test {
     public void getUser(){
         Response res=UserEndpoints2.getUser(this.payload.getUsername());
         res.then().statusCode(200).log().all();
+
     }
     @Test(priority = 4)
     public void updateser(){

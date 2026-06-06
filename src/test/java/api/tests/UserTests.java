@@ -75,5 +75,7 @@ public class UserTests {
 
         res.then().log().all();
         Assert.assertEquals(res.getStatusCode(),200);
+
     }
+
 }
